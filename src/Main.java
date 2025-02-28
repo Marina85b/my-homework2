@@ -9,10 +9,9 @@ public class Main {
             bonus = amount / 100;
         }
 
-        int finalBonus = bonus;
-        int balans = amount + finalBonus + check;
+        int balans = amount + bonus + check;
 
-        System.out.println("Количество бонусов: " + finalBonus);
+        System.out.println("Количество бонусов: " + bonus);
         System.out.println("Итоговый счёт: " + balans);
     }
 }
